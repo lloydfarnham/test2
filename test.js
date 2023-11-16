@@ -21,6 +21,6 @@ function CountDown() {
 window.onload = function() {
   setTimeout(function() {
     location.reload(true);
-  }, 100);
+  }, 1000);
 }
 
