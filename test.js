@@ -5,7 +5,7 @@ function CreateTimer(TimerID, Time) {
   Timer = document.getElementById(TimerID);
   TotalSeconds = Time;
   Timer.innerHTML = TotalSeconds;
-  window.setTimeout(CountDown, 10);
+  window.setTimeout(CountDown, 100);
 }
 
 function CountDown() {
@@ -15,7 +15,7 @@ function CountDown() {
   }
   TotalSeconds -= 1;
   Timer.innerHTML = TotalSeconds;
-  window.setTimeout(CountDown, 10);
+  window.setTimeout(CountDown, 100);
 }
 
 window.onload = function() {
